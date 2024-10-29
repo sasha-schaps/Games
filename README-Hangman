@@ -1,0 +1,14 @@
+<!-- Explaination for Hangman-->
+
+get_word(): Selects a random word from a predefined list. You can customize this list with your own words.
+display_hangman(): Provides the visual representation of the hangman at different stages (based on the number of incorrect tries).
+play_hangman():
+Initializes variables to store the word, letters in the word, the alphabet, used letters, and the number of tries.
+Uses a while loop to continue the game until the word is guessed or the player runs out of tries.
+Inside the loop:
+Prints the used letters.
+Displays the current state of the word with unguessed letters as "-".
+Gets user input for a letter.
+Validates the input to check if it's a new letter.
+Updates the game state based on the guessed letter.
+After the loop, determines the outcome (win or loss) and prints the result.
